@@ -1,0 +1,132 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: azure;
+}
+header{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+span{
+    color: orange;
+}
+
+nav{
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding-block-end: 10px;
+    margin: 0 10px;
+    font-size: large;
+    display: inline-block;
+}
+section{
+    padding: 20px;
+
+}
+.service-container{
+    background-color: #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(60, 60, 68);
+    text-align: center;
+    padding: 0;
+
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.contact-details i {
+    margin-right: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    padding: 0, 15%;
+    margin: 0%;
+}
+.login-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+.login-details h2 {
+    font-size: 24px;
+}
+
+.login-details p {
+    margin-bottom: 10px;
+}
+
+.login-details i {
+    margin-right: 10px;
+}
+
+.login-form {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
